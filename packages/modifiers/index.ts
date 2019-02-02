@@ -1,3 +1,4 @@
+import aspectRatioModule from './aspectRatio'
 import base from './base'
 import restrictEdgesModule from './restrict/edges'
 import restrictModule from './restrict/pointer'
@@ -5,7 +6,6 @@ import restrictSizeModule from './restrict/size'
 import snapEdgesModule from './snap/edges'
 import snapModule from './snap/pointer'
 import snapSizeModule from './snap/size'
-import aspectRatioModule from './snap/aspectRatio'
 
 const { makeModifier } = base
 
